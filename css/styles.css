@@ -16,8 +16,8 @@ body{
     margin-bottom: 3rem;
     margin-left:5%;
     margin-right:5%;
-    background-color: #b8f2e6;
-    color:#faf3dd;
+    background-color: #67aba5;
+    color:white;
     
 }
 
@@ -32,11 +32,13 @@ body{
 nav{
     display:flex;
     justify-content: space-around;
-    align-content: space-between;
+    align-content: center;
     background-color: #26877F;
     margin-top:1rem;
     border-radius: 1rem;
-    color:#faf3dd;
+    color:white;
+    width:50%;
+    align-self: center;
     
 }
 
@@ -48,24 +50,33 @@ nav div{
 a{
     font-size: 2rem;
     font-weight: bold;
-    color:#faf3dd;
+    color:white;
     text-decoration: none;
+    padding: 1rem;
 
 }
 
 a:hover{
-    color:#faf3dd;
     font-size: 2rem;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    background-color: black;
+    border-radius: 1rem;
+   
+    
 }
 
 h1{
    font-size: 3rem;
+   margin-top:1.5rem;
+   margin-bottom: 1.5rem;
+   -webkit-text-stroke:0.1 black;
+   font-weight: bold;
+   color:white;
 }
 
 h2{
     font-size: 2rem;
+    -webkit-text-stroke:0.1 black;
+   font-weight: bold;
 }
 
 section{
@@ -84,6 +95,8 @@ footer{
     display : flex;
     background-color: #26877F;
     color:white;
+    border-radius: 1rem;
+    padding:1rem;
     
 }
 
@@ -96,13 +109,67 @@ footer div{
     height : 7rem;
     margin-left: 1rem;
 }
+
+#footertext{
+    text-align: right;
+    padding-right: 2.5%;
+    font-weight: bold;
+}
  
 nav ul{
    list-style: none;
    text-align: center;
+   padding:0rem;
 }
 
 nav li{
     display: inline-block;
     margin: 0rem 1rem 0rem 1rem;
 }
+
+#promotion{
+    background-image: url("../banner.jpg");
+    background-color: #26877F;
+    background-position: center;
+    
+    padding : 2rem;
+    font-weight: bold;
+    -webkit-text-stroke:0.025rem black;
+}
+
+section{
+    background-color: #26877F;
+    border-radius: 1.5rem;
+}
+
+#promotion > p{
+    font-size: 1.5rem;
+   
+}
+
+#promotion:hover {
+
+}
+
+#a1{
+    background-image: url("../a1.jpeg");
+}
+
+#a2{
+    background-image: url("../a2.jpeg");
+}
+
+#a3{
+    background-image: url("../a3.jpeg");
+}
+
+
+#a1,#a2,#a3{
+    padding:2rem;
+    background-color: white;
+    -webkit-text-stroke:0.025 black;
+    font-weight: bold;
+    font-size: 1rem;
+    background-size: cover;
+}
+
