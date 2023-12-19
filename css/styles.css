@@ -82,6 +82,7 @@ h2{
 section{
     display:flex;
     margin:1rem;
+    flex-wrap: wrap;
 }
 article{
     flex:1;
